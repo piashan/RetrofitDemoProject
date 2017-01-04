@@ -33,7 +33,7 @@ public class ApiClient {
                 .build();
         sRetrofit = new Retrofit.Builder()
                 .client(okHttpClient)
-                .baseUrl("http://api.ajkerdeal.com/")
+                .baseUrl("Base URL")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
     }

@@ -13,6 +13,6 @@ import retrofit2.http.POST;
 
 public interface NetworkCallInterface {
 
-    @POST("AppApi/Categories/ProductCountWithRange")
+    @POST("End url")
     Call<Count> networkCallForCount(@Body IndexCount body);
 }
